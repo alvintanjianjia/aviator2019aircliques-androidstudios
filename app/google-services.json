@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "317982917980",
+    "firebase_url": "https://aviator2019aircliques.firebaseio.com",
+    "project_id": "aviator2019aircliques",
+    "storage_bucket": "aviator2019aircliques.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317982917980:android:1a28acd74926d2f6",
+        "android_client_info": {
+          "package_name": "com.example.a.aviator2019_aircliques"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317982917980-k5o61lvke407tit167bh60rp984n6nmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a.aviator2019_aircliques",
+            "certificate_hash": "f9fe9e096b8a1c0615dce55ae990e91ad6caead2"
+          }
+        },
+        {
+          "client_id": "317982917980-pi360s77479r01d898rij1e0be4ed3l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxIr4PnJzuEFkfN2TC2zxJSrYsrRAnjK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317982917980-pi360s77479r01d898rij1e0be4ed3l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

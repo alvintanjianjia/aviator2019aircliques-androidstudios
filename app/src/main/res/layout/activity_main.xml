@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take My Picture"></Button>
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Picture of camera"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="signUp"
+            android:text="Join AirCliques" />
+
+        <Button
+            android:id="@+id/assignSeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="assignSeat"
+            android:text="Assign Seat" />
+
+        <TextView
+            android:id="@+id/seatNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You are assigned to seat: "
+            android:textSize="24sp"
+            app:autoSizeMaxTextSize="16dp" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
